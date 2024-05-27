@@ -22,9 +22,9 @@
                 <span class="navbar-title"><a href="#homepage" class="navbar-link"><h1>FSA Invest</h1></a></span>
                 <li class="navbar-item"><a href="#homepage" class="navbar-link">Home</a></li>
                 <li class="navbar-item"><a href="#sobre" class="navbar-link">Sobre</a></li>
+                <li class="navbar-item"><a href="#estudo" class="navbar-link">Conteúdo</a></li>
                 <li class="navbar-item"><a href="#investimento" class="navbar-link">Investimentos</a></li>
                 <li class="navbar-item"><a href="#ferramentas" class="navbar-link">Calculadoras</a></li>
-                <li class="navbar-item"><a href="#estudo" class="navbar-link">Conteúdo</a></li>
                 <li class="navbar-item"><a href="#feedback" class="navbar-link">Feedback</a></li>
             </ul>
         </nav>
@@ -36,12 +36,12 @@
     <div class="container">
         <div class="section-content-home">
             <div id="landing-page-content">
-                <h1><span class="section-title">Lorem Ipsum</span></h1>
+                <h1><span class="section-title">FSA Invest</span></h1>
                 <h2><span class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</span></h2>
                 <a href="#"><span class="section-button">Questionário</span></a>
             </div>
             <div id="landing-page-image">
-                <a href="https://br.freepik.com/vetores-gratis/crescimento-de-plantas-a-partir-de-moedas_137645248.htm#fromView=search&page=2&position=42&uuid=943c6af9-6df3-4c6c-9120-04cb1e38e7ea" title="Imagem de Storyset - Freepik" target="_blank" rel="noopener noreferrer"><img src="/assets/img/invest.jpg"></a>
+                <a href="#" title="Imagem de Storyset - Freepik" target="_blank" rel="noopener noreferrer"><img src="/assets/img/invest.jpg"></a>
             </div>   
         </div>
     </div>
@@ -85,6 +85,37 @@
         </div>
     </div>
 </section>
+
+<!-- Seção Conteúdo -->
+
+<section id="estudo">
+    <div class="container">
+        <div class="section-content">
+            <h1><span class="section-title">Conteúdo</span></h1>
+            <br>
+            <br>
+            <div class="image-menu">
+                <div class="image">
+                    <a href="" title="Imagem de Freepik" target="_blank" rel="noopener noreferrer"><img src="assets/img/noticias.jpg" id="image-item"></a>
+                    <label>Notícias</label>
+                </div>
+
+                <div class="image">
+                    <a href="" title="Imagem de Freepik" target="_blank" rel="noopener noreferrer"><img src="assets/img/estudos.jpg" id="image-item"></a>
+                    <label>Estudos</label>
+                </div>
+
+                <div class="image">
+                    <a href="" title="Imagem de Freepik" target="_blank" rel="noopener noreferrer"><img src="assets/img/videos.jpg" id="image-item"></a>
+                    <label>Vídeos</label>
+                </div>
+
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Seção Proposta -->
 
@@ -148,12 +179,10 @@
                         <button onclick="limparCampos()">Limpar</button>
                         <br>
                         <br>
-                        <h2 id="resultadoMontante">Montante Total: R$ 0.00</h2>
-                        <h2 id="resultadoJuros">Total em Juros: R$ 0.00</h2>
+                        <h3 id="resultadoMontante">Montante Total: R$ 0.00</h3>
+                        <h3 id="resultadoJuros">Total em Juros: R$ 0.00</h3>
                         <br>
                         <br>
-                        <br>
-                       
                         <br>
                     </div>
                 </div>
@@ -176,9 +205,9 @@
                         <button onclick="limparCamposComposto()">Limpar</button>
                         <br>
                         <br>
-                        <h2 id="resultadoInvestido">Total Investido: R$ 0.00</h2>
-                        <h2 id="resultadoJurosComposto">Total em Juros: R$ 0.00</h2>
-                        <h2 id="resultadoMontanteComposto">Montante Total: R$ 0.00</h2>
+                        <h3 id="resultadoInvestido">Total Investido: R$ 0.00</h3>
+                        <h3 id="resultadoJurosComposto">Total em Juros: R$ 0.00</h3>
+                        <h3 id="resultadoMontanteComposto">Montante Total: R$ 0.00</h3>
                     </div>
                 </div>
                 <div id="section-content-3">
@@ -208,21 +237,10 @@
                         <br>
                         <br>
                         <br>
-                        <h2 id="result">Valor convertido: USD 0.00</h2>
+                        <h3 id="result">Valor convertido: USD 0.00</h3>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- Seção Estudo -->
-
-<section id="estudo">
-    <div class="container">
-        <div class="section-content">
-            <h1><span class="section-title">Conteúdo</span></h1>
-            <br>
         </div>
     </div>
 </section>
@@ -231,6 +249,8 @@
 <script src="/assets/js/juros-simples.js"></script>
 <script src="/assets/js/juros-compostos.js"></script>
 <script src="/assets/js/conversor-moeda.js"></script>
+
+<footer></footer>
 
 </body>
 </html>
