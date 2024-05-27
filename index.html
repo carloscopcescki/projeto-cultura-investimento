@@ -130,55 +130,86 @@
     <div class="container">
         <div class="section-content">
             <h1><span class="section-title">Calculadoras</span></h1>
-            <br>
-            <div id="section-content-1">
-                <div class="text">
-                    <h2><span class="section-subtitle">Simulador de Juros Simples</span></h2>
-                    <label for="valorInicial">Valor Inicial (R$):</label>
-                    <input type="number" id="valorInicial" min="0" step="0.01" value="0">
+            <div class="section-content-calc">
+                <br>
+                <div id="section-content-1">
+                    <div class="text">
+                        <h2><span class="section-subtitle">Simulador de Juros Simples</span></h2>
+                        <label for="valorInicial">Valor Inicial (R$):</label>
+                        <input type="number" id="valorInicial" min="0" step="0.01" value="0">
 
-                    <label for="taxaJuros">Taxa de Juros (%):</label>
-                    <input type="number" id="taxaJuros" min="0" step="0.5" value="0">
-            
-                    <label for="tempoAnos">Tempo (anos):</label>
-                    <input type="number" id="tempoAnos" min="1" step="1" value="1">
-                    <br>
-                    <button onclick="calcularJuros()">Calcular</button>
-                    <button onclick="limparCampos()">Limpar</button>
-                    <br>
-                    <br>
-                    <h2 id="resultadoMontante">Montante Total: R$ 0.00</h2>
-                    <h2 id="resultadoJuros">Total em Juros: R$ 0.00</h2>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                        <label for="taxaJuros">Taxa de Juros (%):</label>
+                        <input type="number" id="taxaJuros" min="0" step="0.5" value="0">
+                
+                        <label for="tempoAnos">Tempo (anos):</label>
+                        <input type="number" id="tempoAnos" min="1" step="1" value="1">
+                        <br>
+                        <button onclick="calcularJuros()">Calcular</button>
+                        <button onclick="limparCampos()">Limpar</button>
+                        <br>
+                        <br>
+                        <h2 id="resultadoMontante">Montante Total: R$ 0.00</h2>
+                        <h2 id="resultadoJuros">Total em Juros: R$ 0.00</h2>
+                        <br>
+                        <br>
+                        <br>
+                       
+                        <br>
+                    </div>
                 </div>
-            </div>
-            <div id="section-content-2-calculadora">
-                <div class="text">
-                    <h2><span class="section-subtitle">Simulador de Juros Compostos</span></h2>
-                    <label for="valorInicialComposto">Valor Inicial:</label>
-                    <input type="number" id="valorInicialComposto" min="0" step="0.01" value="0">
-            
-                    <label for="aporteMensal">Aporte Mensal:</label>
-                    <input type="number" id="aporteMensal" min="0" step="0.01" value="0">
-            
-                    <label for="taxaJuros">Taxa de Juros (Anual %):</label>
-                    <input type="number" id="taxaJurosComposto" min="0" step="0.5" value="0">
-            
-                    <label for="tempoAnos">Tempo (anos):</label>
-                    <input type="number" id="tempoAnosComposto" min="1" step="1" value="1">
-                    <br>
-                    <button onclick="calcularJurosComposto()">Calcular</button>
-                    <button onclick="limparCamposComposto()">Limpar</button>
-                    <br>
-                    <br>
-                    <h2 id="resultadoInvestido">Total Investido: R$ 0.00</h2>
-                    <h2 id="resultadoJurosComposto">Total em Juros: R$ 0.00</h2>
-                    <h2 id="resultadoMontanteComposto">Montante Total: R$ 0.00</h2>
+                <div id="section-content-2-calculadora">
+                    <div class="text">
+                        <h2><span class="section-subtitle">Simulador de Juros Compostos</span></h2>
+                        <label for="valorInicialComposto">Valor Inicial:</label>
+                        <input type="number" id="valorInicialComposto" min="0" step="0.01" value="0">
+                
+                        <label for="aporteMensal">Aporte Mensal:</label>
+                        <input type="number" id="aporteMensal" min="0" step="0.01" value="0">
+                
+                        <label for="taxaJuros">Taxa de Juros (Anual %):</label>
+                        <input type="number" id="taxaJurosComposto" min="0" step="0.5" value="0">
+                
+                        <label for="tempoAnos">Tempo (anos):</label>
+                        <input type="number" id="tempoAnosComposto" min="1" step="1" value="1">
+                        <br>
+                        <button onclick="calcularJurosComposto()">Calcular</button>
+                        <button onclick="limparCamposComposto()">Limpar</button>
+                        <br>
+                        <br>
+                        <h2 id="resultadoInvestido">Total Investido: R$ 0.00</h2>
+                        <h2 id="resultadoJurosComposto">Total em Juros: R$ 0.00</h2>
+                        <h2 id="resultadoMontanteComposto">Montante Total: R$ 0.00</h2>
+                    </div>
+                </div>
+                <div id="section-content-3">
+                    <div class="text">
+                        <h2>Conversor de Moedas</h2>
+                        <p>Atualizado: 27/05/2024</p>
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <label>Digite o valor em Reais (R$):</label>
+                        <input type="number" step="0.01" value="0" id="amount">
+                        <br>
+                        <br>
+                     
+                        <label>Converter para</label>
+                        <select id="currency">
+                            <option value="USD">Dólar Americano (USD)</option>
+                            <option value="EUR">Euro (EUR)</option>
+                            <option value="BTC">Bitcoin (BTC)</option>
+                        </select>
+                        <br>
+                        <br>
+                       
+                        <button onclick="convertCurrency()">Calcular</button>
+                        <button onclick="limparCurrency()">Limpar</button>
+                        <br>
+                        <br>
+                        <br>
+                        <h2 id="result">Valor convertido: USD 0.00</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -199,6 +230,7 @@
 
 <script src="/assets/js/juros-simples.js"></script>
 <script src="/assets/js/juros-compostos.js"></script>
+<script src="/assets/js/conversor-moeda.js"></script>
 
 </body>
 </html>
