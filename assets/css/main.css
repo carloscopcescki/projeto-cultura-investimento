@@ -245,3 +245,7 @@ h2{
     font-family: "Poppins", sans-serif;
     color: rgb(39, 39, 80);
 }
+
+.section-content a{
+    color: rgb(170, 182, 235);
+}
