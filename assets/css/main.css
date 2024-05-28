@@ -214,8 +214,8 @@ h2{
 }
 
 .image-menu img{
-    width: 320px;
-    height: 320px;
+    width: 230px;
+    height: 220px;
     position: absolute;
 }
 
@@ -234,15 +234,16 @@ h2{
 }
 
 .image-menu {
-    display: inline-block;
+    display: flex;
     position: relative;
     justify-content: center;
     text-align: center;
+    flex-direction: row;
 }
 
 .image label{
     position: relative;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
     color: white;
