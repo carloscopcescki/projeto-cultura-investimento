@@ -8,8 +8,10 @@ function calcularReserva() {
     var reservaEmergencia = 6 * custoFixo;
     var mesesCompletar = reservaEmergencia / poupancaMensal;
 
-    document.getElementById('reservaEmergencia').textContent = 'Reserva de emergência: R$ ' + reservaEmergencia.toFixed(2);
-    document.getElementById('guardando').textContent = 'Guardando: ' + guarda.toFixed(0).replace('.', ',');
+    var options = { style: 'currency', currency: 'BRL' };
+
+    document.getElementById('reservaEmergencia').textContent = 'Reserva de emergência: ' + reservaEmergencia.toLocaleString('pt-BR', options);
+    document.getElementById('guardando').textContent = 'Guardando: ' + guarda.toFixed(0).replace('.', ',') + '%';
     document.getElementById('mesesCompletar').textContent = 'Meses para completar a reserva: ' + mesesCompletar.toFixed(0).replace('.', ',');
 }
 

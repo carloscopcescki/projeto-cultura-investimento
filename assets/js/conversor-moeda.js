@@ -11,6 +11,7 @@ function convertCurrency() {
 
     const result = amount * exchangeRates[currency];
 
+    
     document.getElementById('result').innerText = 'Valor convertido: ' + `${currency} ${result.toFixed(2)}`;
 }
 

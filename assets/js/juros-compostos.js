@@ -19,9 +19,11 @@ function calcularJurosComposto() {
     deposito += capital;
     var jurosCompostos = total - deposito;
 
-    document.getElementById('resultadoInvestido').textContent = 'Total Investido: R$ ' + deposito.toFixed(2).replace('.', ',');
-    document.getElementById('resultadoJurosComposto').textContent = 'Total em Juros: R$ ' + jurosCompostos.toFixed(2).replace('.', ',');
-    document.getElementById('resultadoMontanteComposto').textContent = 'Montante Total: R$ ' + total.toFixed(2).replace('.', ',');
+    var options = { style: 'currency', currency: 'BRL' };
+
+    document.getElementById('resultadoInvestido').textContent = 'Total Investido: ' + deposito.toLocaleString('pt-BR', options);
+    document.getElementById('resultadoJurosComposto').textContent = 'Total em Juros: ' + jurosCompostos.toLocaleString('pt-BR', options);
+    document.getElementById('resultadoMontanteComposto').textContent = 'Montante Total: ' + total.toLocaleString('pt-BR', options);
 }
 
 function limparCamposComposto() {
