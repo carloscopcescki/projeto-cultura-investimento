@@ -112,6 +112,12 @@ div{
     font-size: 18px;
 }
 
+.#section-content-1-perfil{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
 .text{
     background: rgb(39, 39, 80);
     border-radius: 10px;
