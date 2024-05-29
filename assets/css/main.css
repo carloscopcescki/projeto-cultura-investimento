@@ -417,10 +417,10 @@ h2{
     }
 
     .section-content-sobre, .section-sobre p{
+        display: block;
         flex-direction: column;
         align-items: center;
-        max-width: 100%;
-        margin: 0 auto;
+        max-width: 90%;
         padding: 10px;
         box-sizing: border-box;
         font-size: 10px;
@@ -431,8 +431,8 @@ h2{
     }
 
     #foto-participante img {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 
     #foto-participante p{
