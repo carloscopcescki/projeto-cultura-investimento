@@ -2,7 +2,6 @@
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 35px;
     font-style: bold;
-    padding-right: 200px;
 }
 
 .navbar{
@@ -13,9 +12,10 @@
     top: 0;
     left: 0;
     z-index: 100;
-    align-items: center;
     background: rgb(39, 39, 80);
     justify-content: space-between;
+    text-align: center;
+    align-items: center;
 }
 
 .navbar-title{
@@ -24,8 +24,7 @@
 }
 
 .navbar-menu {
-    display: flex;
-    position: static;
+    display: inline-flex;
     align-items: center;
     gap: 40px;
     list-style-type: none;

@@ -12,16 +12,13 @@ body{
     background: #040720;
 }
 
-header{
-    position: relative;
+section {
+    min-height: 100vh;
     width: 100%;
-    height: 100%;
+    padding-top: 50px;
     display: flex;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    justify-content: space-between;
-    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 li {
@@ -278,4 +275,101 @@ h2{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1290px) {
+    .container {
+        flex-direction: column;
+        display: flex;
+        height: auto;
+        max-width: 80%;
+    }
+
+    .section-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .text{
+        max-width: 90%;
+    }
+
+    .text p{
+        font-size: 15px;
+    }
+
+    #landing-page-content {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    #landing-page-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .section-button {
+        font-size: 20px;
+        line-height: 100px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .section-content-home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .participantes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #foto-participante img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .section-subtitle {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .section-content-calc {
+        flex-direction: column;
+        width: 800px;
+        align-items: center;
+    }
+
+    #section-content-2-calculadora {
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .image-menu img {
+        width: 180px;
+        height: 170px;
+    }
+
+    #image-item {
+        margin: 10px 0;
+    }
+
+    .image label {
+        font-size: 18px;
+    }
+
+    #section-content-1-perfil, #section-content-2-perfil, #section-content-3-perfil {
+        max-width: 50%;
+        margin: 0;
+    }
+
+    .content-text {
+        font-size: 18px;
+    }
+
+    .section-perfil {
+        flex-direction: column;
+        align-items: center;
+    }
 }
