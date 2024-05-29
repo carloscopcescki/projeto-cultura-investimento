@@ -410,17 +410,12 @@ h2{
     #landing-page-image img{
         display: none;
     }
-    
-    #sobre {
-        padding-right: 5px;
-    }
 
     .section-content-sobre, .section-sobre p{
         display: block;
         flex-direction: column;
         align-items: center;
         max-width: 80%;
-        padding: 10px;
         font-size: 10px;
     }
 
