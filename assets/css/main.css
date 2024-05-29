@@ -411,10 +411,20 @@ h2{
         display: none;
     }
     
-    .section-content-sobre{
+    #sobre {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .section-content-sobre, .section-sobre p{
         flex-direction: column;
         align-items: center;
-        max-width: 800px;
+        max-width: 900px;
+        font-size: 10px;
+    }
+
+    .section-content-sobre h2 {
+        font-size: 15px
     }
 
     #foto-participante img {
