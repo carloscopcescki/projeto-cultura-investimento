@@ -416,6 +416,7 @@ h2{
         flex-direction: column;
         align-items: center;
         max-width: 80%;
+        padding-right: 25px;
         font-size: 10px;
     }
 
