@@ -143,6 +143,10 @@ div{
     font-size: 25px;
 }
 
+#section-content-1-calculadora{
+    padding-right: 10px;
+}
+
 #section-content-1{
     max-width: 750px;
     margin-right: 10px;
@@ -285,17 +289,37 @@ h2{
         max-width: 80%;
     }
 
+    .section-perfil {
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .section-title {
         font-size: 30px;
         text-align: center;
     }
 
-    .text{
+    .section-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-content-1, #section-content-2{
         max-width: 90%;
+        padding-bottom: 15px;
+    }
+
+    #section-content-1-perfil, #section-content-2-perfil, #section-content-3-perfil {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .text h2{
+        font-size: 18px;
     }
 
     .text p{
-        font-size: 15px;
+        font-size: 14px;
     }
 
     #landing-page-content {
@@ -321,7 +345,7 @@ h2{
     }
 
     .participantes {
-        flex-direction: column;
+        flex-direction: grid;
         align-items: center;
     }
 
@@ -335,41 +359,43 @@ h2{
         text-align: center;
     }
 
-    .section-content-calc {
-        flex-direction: column;
-        width: 800px;
-        align-items: center;
+    .section-content-calc label {
+        font-size: 15px;
     }
 
-    #section-content-2-calculadora {
-        margin-right: 0;
-        max-width: 100%;
+    .section-content-calc{
+        display: block;
+        max-width: 90%;
+    }
+
+    #section-content-1-calculadora{
+        padding-bottom: 15px;
+    }
+
+    .section-content-calc button {
+        font-size: 15px;
+        height: 40px;
+        width: 100px;
+    }
+
+    .section-content-calc h3{
+        font-size: 16px;
+    }
+
+    #section-content-2-calculadora{
+        padding-bottom: 15px;
     }
 
     .image-menu img {
-        width: 180px;
-        height: 170px;
-    }
-
-    #image-item {
-        margin: 10px 0;
+        width: 150px;
+        height: 150px;
     }
 
     .image label {
-        font-size: 18px;
-    }
-
-    #section-content-1-perfil, #section-content-2-perfil, #section-content-3-perfil {
-        max-width: 50%;
-        margin: 0;
+        font-size: 15px;
     }
 
     .content-text {
         font-size: 18px;
-    }
-
-    .section-perfil {
-        flex-direction: column;
-        align-items: center;
     }
 }
