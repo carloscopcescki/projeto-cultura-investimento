@@ -293,7 +293,7 @@ h2{
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1560px) {
     .container {
         flex-direction: column;
         display: flex;
@@ -372,12 +372,12 @@ h2{
     }
 
     .section-content-calc label {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .section-content-calc{
         display: block;
-        max-width: 90%;
+        max-width: 100%;
     }
 
     #section-content-1-calculadora{
@@ -391,7 +391,11 @@ h2{
     }
 
     .section-content-calc h3{
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .section-content-calc h2{
+        font-size: 15px;
     }
 
     #section-content-2-calculadora{
