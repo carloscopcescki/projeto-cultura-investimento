@@ -420,12 +420,12 @@ h2{
     #landing-page-image img{
         display: none;
     }
+    
 
     .section-content-sobre, .section-sobre p{
         flex-direction: column;
         align-items: center;
         max-width: 500px;
-        padding-right: 50px;
         font-size: 10px;
     }
 
