@@ -6,6 +6,9 @@ https://investmentofthefuture.netlify.app/
 
 Site desenvolvido com o objetivo de divulgar a educação financeira e formentar esta cultura para as pessoas, sobretudo para os estudantes e pessoas que estão no inicio de sua construção financeira.
 
+## Layout Web
+![Web 1](https://github.com/carloscopcescki/projeto-cultura-investimento/blob/main/assets/img/homepage.png)
+
 ## Ferramentas Utilizadas
 - HTML
 - CSS
